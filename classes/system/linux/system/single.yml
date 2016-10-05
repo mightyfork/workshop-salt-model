@@ -12,6 +12,8 @@ parameters:
           architectures: amd64
           default: true
           key_url: "http://apt.tcpcloud.eu/public.gpg"
+    storage:
+      enabled: True
   _param:
     heka_amqp_host: 172.16.10.110
     heka_amqp_password: Use.toylett1823
