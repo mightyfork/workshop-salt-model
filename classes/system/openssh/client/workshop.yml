@@ -8,7 +8,7 @@ parameters:
         root:
           enabled: true
           user: ${linux:system:user:root}
-          private_key: ${private_keys:workshop}
+          #private_key: ${private_keys:workshop}
           known_hosts:
           - ${known_hosts:git.tcpcloud.eu}
   known_hosts:
